@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bankruptcy-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram AI agent for bankruptcy FAQs with RAG and Google Sheets lead capture",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "openai": "^4.104.0",
+    "telegraf": "^4.16.3"
+  }
+}
